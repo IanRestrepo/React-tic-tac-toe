@@ -74,7 +74,7 @@ function calculateWinner(squares) {
   return null;
 }
 
-export default function Game() {
+export default function App() {
 
   return (
     <div className="game">
@@ -87,3 +87,5 @@ export default function Game() {
     </div>
   );
 }
+
+module.exports = App;
